@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .PAD{
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            height: 100vh;
+
+        }
+        .hide{
+            display: none;
+            color: red;
+        }
+        .show:hover + .hide{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div  class="PAD" >
+
+   
+    <div  class="show"> 
+      Higher Level 
+    </div>
+    <div class="hide">
+        <ul>
+            <li>JAVA</li>
+            <li>Python</li>
+        </ul>
+    </div>
+
+    <div class="show">
+      Lower Level
+    </div>
+    <div class="hide">
+        <ul>
+            <li>C</li>
+            <li>JS</li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>

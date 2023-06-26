@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media only screen and (max-width:600px) , screen and (max-height:600px) {
+            body{
+                background: url("pic.png") ;
+                background-repeat: no-repeat;
+            }
+            img{
+                width: 100vw;
+                height: 50vh;
+                margin-right: 50px ;
+
+            }
+            .pos1{
+                position: relative;
+            }
+            .pos{
+                margin: 100%;
+                position: absolute; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <img class="pos1" src="./pic.png" alt="">
+    <img class="pos" src="./pic.png" alt="">
+</body>
+</html>

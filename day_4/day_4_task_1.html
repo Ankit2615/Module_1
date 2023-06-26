@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide{
+            display: none;
+        }
+        .show:hover + .hide{
+            display: block;
+        }
+        .image:hover{
+            width: px;
+        }
+        .video:hover{
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div  class="PAD" >
+        <div  class="show"> 
+            <img src="./pic.png" alt="" srcset="">
+        </div>
+        <div class="hide">
+            <img src="./pic.png" alt="" srcset="">      
+        </div>
+       
+ 
+        <div class="show">
+            <p class="video">show vidioes..</p>
+        </div>
+        <div class="hide">  
+            <video autoplay muted loop id="myVideo">
+                <source src="./rain.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+</body>
+</html>

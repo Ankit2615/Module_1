@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <div>
+                <lable>
+                    <i class="bi bi-person-circle" &nbsp;>First Name :-</i>  
+                </lable>
+                <input type="text" name="fname" id="firstName">
+                <br>
+                <br>
+            </div>
+           
+            <div>
+                <lable>
+                    
+                    <i class="bi bi-person-circle" &nbsp;>  Midlle Name :-</i>
+                </lable>
+                <input type="text" name="mname" id="mname"> 
+                <br>
+                <br>
+            </div>
+          
+            <div>
+                <lable>
+                    <i class="bi bi-person-circle" &nbsp;>   Last Name :-</i>
+                </lable>
+                <input type="text" name="fname" id="lname">
+                <br>
+                <br>
+            </div>
+           
+
+            <div>
+                <lable>
+                    <i class="bi bi-house">Addresss :-</i>
+                </lable>
+                <textarea name="address" id="adress" cols="20" rows="1"></textarea>
+                <br>
+                <br>
+            </div>
+
+            <div>
+                <lable>
+                    <i class="bi bi-compass">pincode :-</i>
+                </lable>
+                <input type="number" maxlength=""  id="pincode">
+                <br>
+                <br>
+            </div>
+
+            <div>
+                <lable>
+                    <i class="bi bi-envelope-fill">Email :-</i>
+                </lable>
+                <input type="email" name="fname" id="email">
+                <br>
+                <br>
+            </div>
+
+            <div>
+                <lable>
+                    <i class="bi bi-telephone-fill">Phone Number :-</i>
+                </lable>
+                <input type="tel" name="fname" id="phon">
+                <br>
+                <br>
+            </div>
+
+            <div>
+                    <i class="bi bi-calendar-check">date of birth:-</i>
+                </lable>
+                <input type="date" name="fname" id="bod">
+                <br>
+                <br>
+            </div>
+
+            <div>
+                <lable>
+                   <i class="bi bi-person-circle">age :-</i> 
+                </lable>
+                <input type="number" name="fname" id="age">
+                <br>
+                <br>
+            </div>
+
+            <div>
+                <lable>
+                    gender :-
+                </lable>
+                <i class="bi bi-gender-male"><input type="radio" name="male" value="male" id="gender"> male</i>
+                <i class="bi bi-gender-male"><input type="radio" name="female" value="female" id="gender"> Female</i>
+                
+                <br>
+                <br>
+            </div>
+
+            <div>
+                <lable>
+                   <i class="bi bi-1-circle">What is ur nick name ..? :-</i>  
+                    
+                </lable>
+                <input type="text" name="nname" id="nicname">
+                <br>
+                <br>
+            </div>
+
+            <div>
+                <lable>
+                    <i class="bi bi-2-circle">Whats's is your best friend name ..? :-</i>
+                </lable>
+                <input type="text" name="bname" id="bname">
+                <br>
+                <br>
+            </div>
+            <center>
+                <input type="button" id="bt" value="Save data to file" onclick="saveFile()" />
+            </center>
+        
+        </fieldset>
+    </form>
+</body>
+<script src="logic.js" ></script>
+</html>
